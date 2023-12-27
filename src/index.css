@@ -1,5 +1,5 @@
 body {
-  background-image: url("Assets/grayBackground.jpg");
+  background-image: url("Assets/grayBackground1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
@@ -60,6 +60,20 @@ p {
   padding: 10px;
 }
 
+.bg-createAccount {
+  background-image: url("Assets/grayBackground4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.bg-login {
+  background-image: url("Assets/grayBackground2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
 .custom-disabled-button {
   background-color: #ccc;
   color: #666;
@@ -68,6 +82,12 @@ p {
 
 .errorMsg {
   color: red;
+}
+
+.full-screen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .uiSuccessMsg {

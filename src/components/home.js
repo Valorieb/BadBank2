@@ -1,3 +1,4 @@
+import React from "react";
 import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 export const Home = () => {
   return (
@@ -5,14 +6,14 @@ export const Home = () => {
       <Card
         style={{
           background: "linear-gradient(to right, gray, black)",
-          width: "40rem",
+          width: "30rem",
           padding: "10px",
           margin: "auto",
           color: "white",
         }}
       >
         <CardMedia
-          image="/images/bank_heist.jpg"
+          image="/images/bank_heist1.jpg"
           title="bank heist"
           sx={{ height: 500 }}
         />

@@ -85,17 +85,7 @@ export const Navbar = () => {
           <NavLink
             to="/alldata"
             style={{ textDecoration: "none", color: "white" }}
-          >
-            <MenuItem>
-              <Typography
-                variant="h6"
-                component="div"
-                sx={{ color: "white", flexGrow: 1 }}
-              >
-                All Data
-              </Typography>
-            </MenuItem>
-          </NavLink>
+          ></NavLink>
         </Toolbar>
       </AppBar>
     </Box>

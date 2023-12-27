@@ -3,7 +3,8 @@ import { Routes, Route } from "react-router-dom";
 
 import { Home } from "./components/home";
 import { Navbar } from "./components/navbar";
-// import { alldata } from "./components/alldata";
+import { CreateAccount } from "./components/createaccount";
+import { Login } from "./components/login";
 
 function App() {
   const [balance, setBalance] = useState(0);
@@ -66,11 +67,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route
-          path="alldata"
-          element={<alldata transactions={transactions} account={account} />}
-        />
-        <Route path="Account" element={<login />} /> */}
+        <Route path="createaccount" element={<CreateAccount />} />
+        <Route path="login" element={<Login />} />
       </Routes>
     </>
   );
